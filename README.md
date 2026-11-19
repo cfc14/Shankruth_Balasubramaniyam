@@ -8,9 +8,10 @@ projects. Each project card opens a dedicated long-form page:
 - Energy-aware AUV guidance and control
 - Risk-aware maritime navigation
 
-Each project page contains two labeled media placeholders for future images and
-results. The content is based on the latest CV and statement of purpose supplied
-in November 2026. The navigation CV link opens the latest CV separately.
+Each project page contains a project image and a technical figure or conceptual
+visual. The AUV and ASV figures include source attribution in their captions.
+The content is based on the latest CV and statement of purpose supplied in
+November 2026. The navigation CV link opens the latest CV separately.
 
 ## Publish with GitHub Pages
 1. Create a repository named `YOURUSERNAME.github.io`.
