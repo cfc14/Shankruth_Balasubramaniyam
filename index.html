@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shankruth Balasubramaniyam — robotics, controls, optimization, and robot learning research portfolio.">
+  <title>Shankruth Balasubramaniyam</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="#home">Shankruth Balasubramaniyam</a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#projects">Projects</a>
+      <a href="#publications">Publications</a>
+      <a href="cv.pdf" target="_blank" rel="noopener">CV</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">Robotics • Controls • Optimization • Robot Learning</p>
+      <h1>Shankruth Balasubramaniyam</h1>
+      <p class="lead">I develop reliable autonomous systems by connecting estimation, planning, control, and learning to the constraints of the task. My work spans high-precision industrial robotics and autonomous marine vehicles.</p>
+      <div class="buttons">
+        <a class="button primary" href="#research">View Research</a>
+        <a class="button" href="cv.pdf" target="_blank" rel="noopener">View CV</a>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Research Direction</h2>
+      <p>I study task-adaptive representations and optimization methods that preserve the information robots need while managing computation, uncertainty, safety, and limited onboard resources.</p>
+    </div>
+  </div>
+</section>
+<section id="about" class="section">
+  <div class="container narrow">
+    <p class="eyebrow">About</p>
+    <h2>Research at the intersection of dynamics, optimization, and learning</h2>
+    <p>I am a Graduate Research Assistant at Carnegie Mellon University’s Biorobotics Lab (July 2024 – Present), advised by Dr. Howie Choset. My research experience also includes autonomous marine vehicles and control at IIT Madras, and robotic inspection and perception at the University of Washington.</p>
+    <div class="project">
+      <h3>Carnegie Mellon University</h3>
+      <p>Master of Science in Mechanical Engineering – Research, 2025 – 2027 · Pittsburgh, PA</p>
+      <p><strong>Advisor:</strong> Dr. Howie Choset · <strong>GPA:</strong> 4.00/4.00</p>
+      <p class="meta"><strong>Relevant Coursework:</strong> Robot Learning, Nonlinear Control, Modern Control Theory, Robot Dynamics, Localization &amp; Mapping</p>
+    </div>
+    <div class="project">
+      <h3>Indian Institute of Technology Madras</h3>
+      <p>Bachelor of Technology in Ocean Engineering, 2021 – 2025 · Chennai, India</p>
+      <p><strong>Gold Medal – Highest Department CGPA</strong> · <strong>CGPA:</strong> 9.26/10.00</p>
+      <p class="meta"><strong>Relevant Coursework:</strong> Motion Planning, Probability &amp; Statistics, Machine Learning, Computer Vision</p>
+    </div>
+    <p><strong>Programming:</strong> Python, C/C++, MATLAB</p>
+    <p><strong>Tools &amp; Hardware:</strong> Git, Docker, Linux, Simulink, SolidWorks, Fusion 360, ANSYS, Arduino, ROS/ROS2, MuJoCo, Isaac Gym, Gazebo</p>
+  </div>
+</section>
+<section id="research" class="section alt">
+  <div class="container">
+    <p class="eyebrow">Research</p>
+    <h2>Current Research Themes</h2>
+    <div class="grid three">
+      <article class="card">
+        <h3>State Estimation &amp; Factor Graphs</h3>
+        <p>Factor-graph state estimation for vibration compensation in ultra-large industrial manipulators, and continuous surface feature estimation using Darboux-constrained Gaussian-process factor graphs.</p>
+      </article>
+      <article class="card">
+        <h3>Controls &amp; Optimization</h3>
+        <p>Perception and factor-graph optimization for high-precision industrial welding, alongside experience evaluating robust and nonlinear control strategies for autonomous underwater vehicles.</p>
+      </article>
+      <article class="card">
+        <h3>Robot Learning</h3>
+        <p>Decentralized multi-agent reinforcement and imitation learning for quadruped/hexapod locomotion in Isaac Gym, and multi-agent deep reinforcement learning for marine pursuit-evasion games.</p>
+      </article>
+    </div>
+  </div>
+</section>
+<section id="projects" class="section projects-section">
+  <div class="container">
+    <div class="section-intro">
+      <div><p class="eyebrow">Selected Projects</p><h2>Four systems, one research question</h2></div>
+      <p>How can a robot make dependable decisions when sensing is uncertain, computation is limited, and performance must be balanced against safety or energy?</p>
+    </div>
+    <div class="project-grid">
+      <a class="project-card" href="project-weld-inspection.html">
+        <span class="project-index">01</span><span class="tag">Estimation · Planning</span>
+        <h3>Task-Aware Robotic Weld Inspection</h3>
+        <p>Reconstructing continuous weld geometry from noisy measurements with a Darboux-constrained Gaussian-process factor graph for accurate inspection path generation.</p>
+        <span class="project-link">Read the project <span aria-hidden="true">→</span></span>
+      </a>
+      <a class="project-card" href="project-vibration-compensation.html">
+        <span class="project-index">02</span><span class="tag">State Estimation · Control</span>
+        <h3>Vibration Compensation for Material Deposition</h3>
+        <p>Estimating translational vibration in compliant industrial manipulators and coupling that motion estimate to deposition process control.</p>
+        <span class="project-link">Read the project <span aria-hidden="true">→</span></span>
+      </a>
+      <a class="project-card" href="project-auv-control.html">
+        <span class="project-index">03</span><span class="tag">Guidance · Controls</span>
+        <h3>Energy-Aware AUV Guidance and Control</h3>
+        <p>Comparing linear and nonlinear control strategies to understand the trade-off between tracking accuracy, convergence time, and limited onboard energy.</p>
+        <span class="project-link">Read the project <span aria-hidden="true">→</span></span>
+      </a>
+      <a class="project-card" href="project-maritime-navigation.html">
+        <span class="project-index">04</span><span class="tag">Reinforcement Learning · Safety</span>
+        <h3>Risk-Aware Maritime Navigation</h3>
+        <p>Using a Deep Q-Network with collision-risk and velocity-potential features to identify credible threats earlier in crowded multi-vessel environments.</p>
+        <span class="project-link">Read the project <span aria-hidden="true">→</span></span>
+      </a>
+    </div>
+  </div>
+</section>
+<section id="publications" class="section alt">
+  <div class="container narrow">
+    <p class="eyebrow">Publications</p>
+    <h2>Publications &amp; Manuscripts</h2>
+    <ul class="pubs">
+<li><strong>Balasubramaniyam, S.</strong>, et al. “Performance Evaluation of Different Control Algorithms for Torpedo-Shaped AUVs.” ASME OMAE, 2024.</li>
+<li>Singh, A. N., Vijayakumar, A., <strong>Balasubramaniyam, S.</strong>, et al. “Deep Reinforcement Learning for Ship Collision Avoidance and Path Tracking.” ASME OMAE, 2024.</li>
+<li>Patil, A., Lee, R., <strong>Balasubramaniyam, S.</strong>, et al. “Characterizing Robot Vision Solutions for Anomaly Detection in Confined Spaces.” Late Breaking Results, IEEE ICRA, 2024.</li>
+<li><strong>Balasubramaniyam, S.</strong>, Tyagi, P., Shastry, S., Li, L., Choset, H., et al. “Darboux-Constrained Gaussian-Process Factor Graphs for Continuous Surface Feature Estimation.” To be submitted to Robotics and Automation Letters (RA-L).</li>
+<li>Shastry, S., Mick, D., Kou, H., Wu, Y., <strong>Balasubramaniyam, S.</strong>, Min, J., Li, L., Baker, A., &amp; Choset, H. “Reactive Deposition-Event Scheduling for Translational Vibration Compensation in Discrete Material Deposition Processes.” To be submitted to Robotics and Automation Letters (RA-L).</li>
+</ul>
+  </div>
+</section>
+<section class="section">
+  <div class="container narrow">
+    <p class="eyebrow">Contact</p>
+    <h2>Get in touch</h2>
+    <p><a href="mailto:shankrub@andrew.cmu.edu">shankrub@andrew.cmu.edu</a></p>
+    <p><a href="tel:+14126702097">+1 (412) 670-2097</a></p>
+    <p><a href="https://scholar.google.com/citations?user=RZcgPHcAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a></p>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="container"><p>© 2026 Shankruth Balasubramaniyam</p></div>
+</footer>
+</body>
+</html>
