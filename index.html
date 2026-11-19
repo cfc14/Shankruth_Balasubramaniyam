@@ -87,28 +87,32 @@
     </div>
     <div class="project-grid">
       <a class="project-card" href="project-weld-inspection.html">
-        <span class="project-index">01</span><span class="tag">Estimation · Planning</span>
-        <h3>Task-Aware Robotic Weld Inspection</h3>
-        <p>Developed a Darboux-constrained Gaussian-process factor graph that reconstructs continuous weld geometry from noisy, discrete measurements. By jointly estimating position, surface-aligned orientation, and curvature while incorporating planning objectives, the system generated inspection paths with sub-millimeter positional and sub-degree orientation accuracy.</p>
-        <span class="project-link">Read the project <span aria-hidden="true">→</span></span>
+        <span class="project-thumb"><img src="assets/01_weld_top_lab.webp" alt="Robotic arm inspecting a weld seam" width="1600" height="900"></span>
+        <span class="project-card-copy"><span class="tag">Estimation · Planning</span>
+        <h3>Robotic Inspection of Complex Welds</h3>
+        <p>Reliable weld inspection requires a robot to understand a continuous, curved surface from measurements that are sparse, noisy, and incomplete. This project asks how geometry and inspection objectives can be estimated together so a robot can generate an accurate path instead of merely following disconnected sensor points.</p>
+        <span class="project-link">See how the geometry is reconstructed <span aria-hidden="true">→</span></span></span>
       </a>
       <a class="project-card" href="project-vibration-compensation.html">
-        <span class="project-index">02</span><span class="tag">State Estimation · Control</span>
-        <h3>Vibration Compensation for Material Deposition</h3>
-        <p>Built a factor-graph estimator to track translational vibration in a compliant industrial manipulator during precision material deposition. The framework uses sensor data and commanded-path constraints to inform deposition timing, contributing to sub-millimeter placement accuracy despite structural motion.</p>
-        <span class="project-link">Read the project <span aria-hidden="true">→</span></span>
+        <span class="project-thumb"><img src="assets/03_deposition_top_lab.webp" alt="Robotic material-deposition system" width="1600" height="900"></span>
+        <span class="project-card-copy"><span class="tag">State Estimation · Control</span>
+        <h3>Precision Deposition on Vibrating Structures</h3>
+        <p>Industrial material deposition becomes difficult when a large robot flexes and vibrates as it moves. Even a correct planned path can miss the target, raising a practical question: can the process estimate structural motion in real time and choose when to deposit material so accuracy is preserved?</p>
+        <span class="project-link">Explore the estimation and timing strategy <span aria-hidden="true">→</span></span></span>
       </a>
       <a class="project-card" href="project-auv-control.html">
-        <span class="project-index">03</span><span class="tag">Guidance · Controls</span>
-        <h3>Energy-Aware AUV Guidance and Control</h3>
-        <p>Evaluated line-of-sight guidance and linear and nonlinear controllers for an underactuated AUV operating under hydrodynamic disturbances. The study quantified trade-offs among tracking accuracy, convergence time, and control effort, showing that a simpler linear strategy reduced energy use by about 50% with only a modest increase in travel time.</p>
-        <span class="project-link">Read the project <span aria-hidden="true">→</span></span>
+        <span class="project-thumb"><img src="assets/05_auv_top_paper_fig1.webp" alt="Design of a torpedo-shaped autonomous underwater vehicle" width="1600" height="900"></span>
+        <span class="project-card-copy"><span class="tag">Guidance · Controls</span>
+        <h3>Navigation When Energy Is Limited</h3>
+        <p>An underwater robot can track a path more aggressively by using additional control effort, but every correction consumes energy needed to finish the mission. This project examines when simpler control is actually the more reliable choice and how much tracking performance must be traded for endurance.</p>
+        <span class="project-link">Compare the control strategies <span aria-hidden="true">→</span></span></span>
       </a>
       <a class="project-card" href="project-maritime-navigation.html">
-        <span class="project-index">04</span><span class="tag">Reinforcement Learning · Safety</span>
-        <h3>Risk-Aware Maritime Navigation</h3>
-        <p>Developed a Deep Q-Network for autonomous surface-vessel navigation that balances path tracking with collision avoidance. Collision-risk and relative-velocity features help the policy distinguish credible threats from nearby vessels moving away, enabling earlier and more proactive avoidance in crowded scenarios.</p>
-        <span class="project-link">Read the project <span aria-hidden="true">→</span></span>
+        <span class="project-thumb"><img src="assets/07_asv_top_risk_navigation.png" alt="Multi-vessel collision-avoidance scenario" width="1600" height="900"></span>
+        <span class="project-card-copy"><span class="tag">Reinforcement Learning · Safety</span>
+        <h3>Multi-Vessel Collision Avoidance</h3>
+        <p>Safe navigation in crowded water cannot be based on distance alone: a faraway vessel approaching quickly may be more dangerous than a nearby vessel moving away. This project explores how an autonomous vessel can recognize developing threats early while still making progress toward its destination.</p>
+        <span class="project-link">See how the policy reasons about risk <span aria-hidden="true">→</span></span></span>
       </a>
     </div>
   </div>
